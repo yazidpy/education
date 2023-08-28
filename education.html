@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./edu.css">
+
+
+    <title>Teach-Learning -- Cours en ligne </title>
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+    <header>
+        
+        <a class="logo" href="#home"><span>T</span>-Learning</a>
+
+        <nav class="navbar">
+            <a href="#home">Acceuil</a>
+            <a href="#cours">Cours</a>
+            <a href="#services">services</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+            <!-- <i><select> 
+                    <option>Français</option>
+                    <option>Anglais</option>
+                    <option>Arabe</option>
+                </select>
+            </i>
+            -->
+            <div id="menu-bar" class="fas fa-bars"></div>
+        </div>
+        
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Chercher ici...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="" class="connexion">
+            <h3>Je me connecte</h3>
+            <input type="email" class="box" placeholder="Tapez votre email..">
+            <input type="password" class="box" placeholder="Votre mot de passe..">
+            <input type="submit" value="Connexion" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Se souvenir de moi</label>
+            <p>Mot de passe oublié?<a href="#"> cliquer ici</a></p>
+            <p>J'ai pas de compte?<a class="btn-inscrire" href="#"> Inscrire maitenant</a></p>
+        </form>
+        <form action="" class="inscription">
+            <h3>Je m'inscris</h3>
+            <input type="text" class="box" placeholder="Votre Nom..">
+            <input type="text" class="box" placeholder="Votre Prénom..">
+            <input type="date" class="box" placeholder="Votre date-naissance..">
+            <input type="email" class="box" placeholder="Tapez votre email..">
+            <input type="password" class="box" placeholder="Saisir un mot de passe..">
+            <input type="password" class="box" placeholder="Rettaper votre mot de passe..">
+            <input type="submit" value="Sauvegader" class="btn">
+            <p>J'ai un compte..<a class="btn-connecter" href="#"> Se Connecter ?</a></p>
+        </form>
+    </div>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    </head>
+
+    <body>
+        <section id="home">
+            <h2>Développer vos compétances avec<br><span>Teach-Learning</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <br>Voluptate, tempora?
+            </p>
+            <a class="btn" href="">Voir Plus +</a>
+        </section>
+        <section id="categories">
+            <h1 class="heading">
+                <span>c</span>
+                <span>a</span>
+                <span>t</span>
+                <span>é</span>
+                <span>g</span>
+                <span>o</span>
+                <span>r</span>
+                <span>i</span>
+                <span>e</span>
+                <span>s</span>
+            </h1>
+            <div class="row">
+                <div class="image">
+                    <img src="./images/5.svg">
+                </div>
+                <form action="">
+                    <h3>Rechercher des cours..</h3>
+                    <div class="inputBox">
+                        <h3>Catègories</h3>
+                        <select>
+                            <option>cat1</option>
+                            <option>cat1</option>
+                        </select>
+                    </div>
+                    <div class="inputBox">
+                        <h3>Module</h3>
+                        <select>
+                            <option>mod1</option>
+                            <option>mod2</option>
+                        </select>
+                    </div>
+                    <div class="inputBox">
+                        <h3>Type</h3>
+                        <select>
+                            <option>cours</option>
+                            <option>exercice</option>
+                        </select>
+                    </div>
+                    <input type="submit" class="btn" value="Rechercher">
+                </form>
+            </div>
+        </section>
+
+        <section id="cours">
+            <h1 class="heading">
+                <span>p</span>
+                <span>l</span>
+                <span>u</span>
+                <span>s</span>
+                <span class="space"></span>
+                <span>p</span>
+                <span>o</span>
+                <span>p</span>
+                <span>u</span>
+                <span>l</span>
+                <span>a</span>
+                <span>i</span>
+                <span>r</span>
+                <span>e</span>
+                <span>s</span>
+
+            </h1>
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="./images/py.png" alt="">
+                    <div class="content">
+                        <h3> Python </h3>
+                        <p>consectetur adipisicing elit. Veritatis, nam!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <p><b>23</b> Personne</p>
+                        </div>
+                        <a href="#" class="btn">Voir plus</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./images/js.jfif" alt="">
+                    <div class="content">
+                        <h3> Java script </h3>
+                        <p>consectetur adipisicing elit. Veritatis, nam!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <p><b>23</b> Personne</p>
+                        </div>
+                        <a href="#" class="btn">Voir plus</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./images/math.jpg" alt="">
+                    <div class="content">
+                        <h3> Maths </h3>
+                        <p>consectetur adipisicing elit. Veritatis, nam!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <p><b>23</b> Personne</p>
+                        </div>
+                        <a href="#" class="btn">Voir plus</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./images/dessin.jpeg" alt="">
+                    <div class="content">
+                        <h3> Dessin </h3>
+                        <p>consectetur adipisicing elit. Veritatis, nam!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <p><b>23</b> Personne</p>
+                        </div>
+                        <a href="#" class="btn">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="service">
+            <h1 class="heading">
+                <span>s</span>
+                <span>e</span>
+                <span>r</span>
+                <span>v</span>
+                <span>i</span>
+                <span>c</span>
+                <span>e</span>
+                <span>s</span>
+            </h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="./images/about-icon-1.png">
+                    <h3>La plus grande<br>communauté étudiante</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, eos.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                    </p>
+                </div>
+                <div class="box">
+                    <img src="./images/about-icon-2.png">
+                    <h3>Cours à jour</h3>
+                    <p>Lorem Lorem ipsum dolor sit amet consectetur adipisicing elitipsum dolor sit amet consectetur
+                        adipisicing elit. Quas, eos.</p>
+                </div>
+                <div class="box">
+                    <img src="./images/about-icon-3.png">
+                    <h3>Certification</h3>
+                    <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elitconsectetur
+                        adipisicing elit. Quas, eos.</p>
+                </div>
+            </div>
+        </section>
+       
+
+        <section id="contact">
+            <h1 class="heading">
+                <span>C</span>
+                <span>o</span>
+                <span>n</span>
+                <span>t</span>
+                <span>a</span>
+                <span>C</span>
+                <span>t</span>
+            </h1>
+
+
+            <div class="contact-container">
+                <div class="contact-logo">
+                    <img src="./images/library-3.png.png">
+                </div>
+                <div class="contact-form-container">
+                    <form action="">
+                        <div class="input-box">
+                            <input type="text" placeholder="Votre Nom..">
+                            <input type="text" placeholder="Votre Prénom..">
+                        </div>
+                        <div class="input-box">
+                        <input type="email" placeholder="Votre email..">
+                        <input type="text" placeholder="objet..">
+                        </div>
+                        <textarea placeholder="votre message.." cols="30" rows="10"></textarea>
+                        <input type="submit" class="btn" value="Envoyer">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+        <div class="box-container">
+                <div class="box">
+                    <h3>A propos de nous</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas magni pariatur est accusantium voluptas enim nemo facilis sit debitis.</p>
+                </div>
+                <div class="box">
+                    <h3>Locations</h3>
+                    <a href="#">Algerie</a>
+                    <a href="#">Tizi-Ouzou</a>
+                   
+                </div>
+                <div class="box">
+                    <h3>Lien rapide</h3>
+                    <a href="#home">Acceuil</a>
+                    <a href="#cours">Cours</a>
+                    <a href="#service">Services</a>
+                    <a href="#contact">Contact</a>
+            
+                </div>
+                <div class="box">
+                    <h3>Abnnez nous </h3>
+                    <a href="#">facebook</a>
+                    <a href="#">instagram</a>
+                    <a href="#">twitter</a>
+                    <a href="#">Discord</a>
+                </div>
+        
+            </div>
+        
+            <h1 class="credit"> Crée par <span> Yazid-Aliche </span> | tous les droits réservés </h1>      
+        </section>
+        <script src="./js.js"></script>
+    </body>
+
+    </html>
